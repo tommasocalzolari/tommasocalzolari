@@ -21,6 +21,15 @@ Built an autonomous quadrotor navigation pipeline in simulation, combining RRT*/
 
 [Repository](https://github.com/tommasocalzolari/RRT-MPC-drone.git) | Demo GIF | Technical summary | Official report
 
+### Multi-Sensor Pedestrian Detection and 3D Localization
+
+Developed a machine perception pipeline for autonomous driving that combines camera, LiDAR, and radar data to detect pedestrians and estimate their position in 3D. The system processes point clouds to generate 3D proposals, projects them into the camera image, scores image patches with a CNN, and applies non-maximum suppression to obtain final pedestrian detections.
+
+**Tech:** Python, Jupyter, OpenCV, CNN, LiDAR, radar, point-cloud processing, NMS, BEV visualization  
+**Focus:** autonomous-driving perception, sensor fusion, pedestrian detection, 3D localization  
+
+[Repository](https://github.com/tommasocalzolari/multi-sensor-pedestrian-detection.git) | Demo Videos | Technical summary | Official report
+
 ### FPGA HDMI Display Controller
 Designed a custom Verilog HDMI display peripheral connected to a Hummingbird/e203 CPU through a memory-mapped interface. The system handles character rendering, video timing, and hardware/software communication for 1280x720 HDMI output.
 
