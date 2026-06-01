@@ -1,15 +1,13 @@
-# Tommaso Calzolari
+## Robotics, autonomy, and intelligent navigation
 
-Robotics MSc student at TU Delft working on autonomous drones, computer vision, motion planning, and control.
-
-I am interested in building autonomous systems that combine perception, planning, and real-time control, with a particular focus on aerial robotics and intelligent navigation in complex environments.
+I build autonomous robotic systems that combine perception, planning, and real-time control, with a focus on aerial robotics, computer vision, and navigation in constrained environments.
 
 ## Selected Projects
 
 ### Onboard Obstacle Avoidance and Gate Following for a Parrot Bebop Drone
 Developed, with my team, an onboard autonomy pipeline for a physical Parrot Bebop drone using the Paparazzi UAV framework. The system addressed obstacle avoidance, gate detection, and gate-following under severe onboard hardware constraints, requiring lightweight perception and control strategies suitable for real-time flight.
 
-**Tech:** C, Paparazzi UAV, Parrot Bebop, onboard autonomy, computer vision, obstacle avoidance, CNN
+**Tech:** C, Paparazzi UAV, Parrot Bebop, onboard autonomy, computer vision, obstacle avoidance, CNN  
 **Focus:** real-time robotic perception, constrained embedded systems, autonomous flight  
 
 [Repository](https://github.com/tommasocalzolari/paparazzi.git) | Demo Video | Technical summary | Official report
@@ -41,6 +39,6 @@ Tech: Verilog, RTL design, FPGA, memory-mapped I/O, HDMI timing.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/tommaso-calzolari/)
-Personal email: tommi.calzolari@gmail.com
-Faculty email: tcalzolari@tudelft.nl
+LinkedIn: https://www.linkedin.com/in/tommaso-calzolari/  
+**Personal email:** tommi.calzolari@gmail.com  
+Faculty email: tcalzolari@tudelft.nl  
