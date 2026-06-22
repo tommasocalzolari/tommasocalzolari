@@ -2,40 +2,59 @@
 
 I build autonomous robotic systems that combine perception, planning, and real-time control, with a focus on aerial robotics, computer vision, and navigation in constrained environments.
 
+---
+
 ## Selected Projects
 
-### Onboard Obstacle Avoidance and Gate Following for a Parrot Bebop Drone
-Developed, with my team, an onboard autonomy pipeline for a physical Parrot Bebop drone using the Paparazzi UAV framework. The system addressed obstacle avoidance, gate detection, and gate-following under severe onboard hardware constraints, requiring lightweight perception and control strategies suitable for real-time flight.
+### SimBioSys Greenhouse Robot
 
-**Tech:** C, Paparazzi UAV, Parrot Bebop, onboard autonomy, computer vision, obstacle avoidance, CNN  
-**Focus:** real-time robotic perception, constrained embedded systems, autonomous flight  
+Autonomous ROS2 greenhouse robot for flower-bed inspection, navigation, UI interaction, and basic harvesting.
+**Tech:** ROS2 · Nav2/AMCL/SLAM · YOLO perception
+[Repository](https://github.com/tommasocalzolari/simbiosys-greenhouse-robot)
 
-[Repository](https://github.com/tommasocalzolari/paparazzi.git) | Demo Video | Technical summary | Official report
+### Parrot Bebop Obstacle Avoidance
 
-### Autonomous Drone Navigation with RRT* and MPC
+Onboard perception and reactive obstacle-avoidance pipeline for a physical Parrot Bebop drone using Paparazzi UAV.
+**Tech:** C · Paparazzi UAV · onboard computer vision
+[Repository](https://github.com/tommasocalzolari/paparazzi)
 
-Built an autonomous quadrotor navigation pipeline in simulation, combining RRT*/RRT-based global path planning with Model Predictive Control for local trajectory tracking. The system plans collision-free trajectories in obstacle-rich environments and controls the drone to follow them dynamically in simulation.
+### RRT-MPC Drone Navigation
 
-**Tech:** Python, PyBullet, RRT/RRT*, MPC, robotics simulation, trajectory tracking  
-**Focus:** motion planning, optimal control, autonomous navigation  
+Autonomous quadrotor navigation in simulation using sampling-based planning and model predictive control.
+**Tech:** Python · RRT/RRT* · MPC
+[Repository](https://github.com/tommasocalzolari/RRT-MPC-drone)
 
-[Repository](https://github.com/tommasocalzolari/RRT-MPC-drone.git) | Demo GIF | Technical summary | Official report
+### Multi-Sensor Pedestrian Detection
 
-### Multi-Sensor Pedestrian Detection and 3D Localization
+Autonomous-driving perception pipeline for pedestrian detection and 3D localization using camera, LiDAR, and radar data.
+**Tech:** Python · sensor fusion · CNN/NMS
+[Repository](https://github.com/tommasocalzolari/multi-sensor-pedestrian-detection)
 
-Developed a machine perception pipeline for autonomous driving that combines camera, LiDAR, and radar data to detect pedestrians and estimate their position in 3D. The system processes point clouds to generate 3D proposals, projects them into the camera image, scores image patches with a CNN, and applies non-maximum suppression to obtain final pedestrian detections.
+### Duck Collector Imitation Learning
 
-**Tech:** Python, Jupyter, OpenCV, CNN, LiDAR, radar, point-cloud processing, NMS, BEV visualization  
-**Focus:** autonomous-driving perception, sensor fusion, pedestrian detection, 3D localization  
+Vision-based imitation-learning policy for collecting objects in MiniWorld environments.
+**Tech:** Python · behavior cloning · Keras
+[Repository](https://github.com/tommasocalzolari/duck-collector-IL)
 
-[Repository](https://github.com/tommasocalzolari/multi-sensor-pedestrian-detection.git) | Demo Videos | Technical summary | Official report
+### Hannes Hand ROS Evaluation
+
+ROS-based experimental framework for evaluating control strategies on the Hannes prosthetic hand.
+**Tech:** ROS · Python · prosthetic-hand control
+[Repository](https://github.com/tommasocalzolari/hannes-hand-ros-evaluation)
+
+### Single-Cycle RISC-V CPU
+
+Single-cycle RISC-V CPU implemented in Verilog and verified through waveform-based simulation.
+**Tech:** Verilog · RISC-V · GTKWave
+[Repository](https://github.com/tommasocalzolari/riscv-cpu)
 
 ### FPGA HDMI Display Controller
-Designed a custom Verilog HDMI display peripheral connected to a Hummingbird/e203 CPU through a memory-mapped interface. The system handles character rendering, video timing, and hardware/software communication for 1280x720 HDMI output.
 
-Tech: Verilog, RTL design, FPGA, memory-mapped I/O, HDMI timing.
+Custom Verilog HDMI display peripheral connected to a Hummingbird/e203 CPU through memory-mapped I/O.
+**Tech:** Verilog · FPGA · HDMI
+[Repository](https://github.com/tommasocalzolari/e203_HDMI)
 
-[Repository](https://github.com/tommasocalzolari/e203_HDMI.git) | Architecture diagram | Simulation notes
+---
 
 ## Technical Focus
 
@@ -44,10 +63,10 @@ Tech: Verilog, RTL design, FPGA, memory-mapped I/O, HDMI timing.
 - Computer vision for navigation
 - Control engineering
 - Embedded systems and real-time software
-- Python, C/C++, Verilog, ROS, PyTorch, OpenCV
+- Python, C/C++, ROS, PyTorch, OpenCV, Verilog
 
 ## Contact
 
-LinkedIn: https://www.linkedin.com/in/tommaso-calzolari/  
-**Personal email:** tommi.calzolari@gmail.com  
-Faculty email: tcalzolari@tudelft.nl  
+**Linkedin:** [tommaso-calzolari](https://www.linkedin.com/in/tommaso-calzolari/)  
+**Email:** [tommi.calzolari@gmail.com](mailto:tommi.calzolari@gmail.com)  
+**TU Delft:** [tcalzolari@tudelft.nl](mailto:tcalzolari@tudelft.nl)
